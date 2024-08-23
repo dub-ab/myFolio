@@ -21,7 +21,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.ico" />
-
+  
+  <link rel="canonical" href="https://dub-ab.github.io/myFolio/" />
   <!-- Put your site title here -->
   <title>
     Dub-AB | A Developer
@@ -39,6 +40,7 @@
 
   <header class="header" role="banner" id="top">
     <div class="row">
+      <span role="img" aria-label="Designcise" class="header"></span>
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
@@ -94,12 +96,12 @@
                   View My Models <span>&rarr;</span>
                 </a>
                 <a href="https://www.printables.com/" title="Visit Printables.com" target="_blank">
-                  <img src="./images/prusa_icon_32_x_32.png" class="work__code" alt="Printables">
+                  <img src="./images/prusa_icon_32_x_32.png" class="work__code" loading="lazy" alt="Printables">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/3d_print.png" ></img:src>
+              <img src="./images/3d_print.png" loading="lazy" alt="A snapshot of my 3d printer in action."></img:src>
             </div>
           </div>
 
@@ -107,7 +109,7 @@
             <div class="work__text">
               <h3>Portfolio Template</h3>
               <p>
-                This Portfolio.  Who's template was modified from <a href="https://github.com/nisarhassan12/portfolio-template"> Nisar</a>.
+                This Portfolio.  Who's template was modified from <a href="https://github.com/nisarhassan12/portfolio-template" class="link"> Nisar</a>.
               </p>
               <ul class="work__list">
                 <li>HTML</li>
@@ -121,12 +123,12 @@
                   Visit Site <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/dub-ab/myFolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  <img src="./images/github.svg" class="work__code" loading="lazy" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project_template.jpeg" class="work__image" alt="Project 1" />
+              <img src="./images/project_template.jpeg" class="work__image" loading="lazy" alt="Template Screenshot" />
             </div>
           </div>
 
@@ -147,12 +149,12 @@
                   broken link <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/dub-ab/SunPower" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  <img src="./images/github.svg" class="work__code" loading="lazy" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/SunPowerMonitor.jpg"></img:src>
+              <img src="./images/SunPowerMonitor.jpg" loading="lazy" alt="A screen shot of my SunPower monitor in action."></img:src>
             </div>
           </div>
 
@@ -167,8 +169,8 @@
         <h2>Clients</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/The_bathistry.jpg" class="client__logo" alt="The Bathistry" />
-          <img src="./images/TheBigBlueUmbrella.jpeg" class="client__logo" alt="The Big Blue Umbrella" />
+          <img src="./images/The_bathistry.jpg" class="client__logo" loading="lazy" alt="The Bathistry" />
+          <img src="./images/TheBigBlueUmbrella.jpeg" class="client__logo" loading="lazy" alt="The Big Blue Umbrella" />
         </div>
       </div>
     </section>
@@ -193,7 +195,7 @@
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/ABW.jpg" alt="" />
+            <img class="about__photo" src="./images/ABW.jpg" loading="lazy" alt="the developer" />
           </div>
         </div>
       </div>
@@ -228,18 +230,18 @@
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
           <a href="https://youtube.com/@dub-ab/" title="Link to Youtube Channel" target="_blank">
-            <img src="./images/YouTube-Icon-White-Logo.wine.svg" class="footer__social-image" alt="Youtube">
+            <img src="./images/YouTube-Icon-White-Logo.wine.svg" class="footer__social-image" loading="lazy" alt="Youtube">
           </a>
         </li>
         <li class="footer__social-link-item">
           <a href="https://github.com/dub-ab/" title="Link to Github Profile" target="_blank">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+            <img src="./images/github.svg" class="footer__social-image" loading="lazy" alt="Github">
           </a>
         </li>
 
         <li class="footer__social-link-item">
           <a href="https://www.linkedin.com/in/anthony-washington-89b917304/" target="_blank">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" loading="lazy" alt="Linkedin">
           </a>
         </li>
       </ul>
@@ -248,7 +250,9 @@
       <p>
         &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
       </p>
-      <a href="https://www.freepik.com/free-photo/black-prism-concept-ai-generated_133558240.htm#query=dark%20background&position=16&from_view=keyword&track=ais_hybrid&uuid=1d1d7ad8-b46a-4d42-981a-cd7a8681529c" class="link">Image by vwalakte</a> on Freepik
+      <p>
+        Background generated by <a href="https://openai.com/index/dall-e-3" class="link">DALL-E 3</a>
+      </p>
     </div>
   </footer>
 
