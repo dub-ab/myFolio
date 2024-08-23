@@ -43,9 +43,14 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    /* --pink: #ff3258; */
     --white: #f0e9f2;
-    --white-1: #e5e5e6da;
+    --white-1: #fdf7ff; /* the text */
+    --shiitake: #c8bcab;
+    --burgandy: #730d00;
+    --pink: #005b4c;
+
+    
 
 
     --container-max-width: 1180px;
@@ -78,7 +83,8 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    /* color: var(--white-1); */
+    color: var(--shiitake);
     line-height: var(--line-height-normal);
     background: var(--black);
     overflow-x: hidden;
@@ -428,7 +434,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text p {
-    margin: 1.5rem 0 3.5rem;
+    margin: 3.5rem 0 3.5rem;
     max-width: var(--container-medium-width);
     font-family: 'Jost', sans-serif;
     font-size: var(--font-size-medium);
@@ -559,6 +565,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
+}
+.about__photo-container > img {
+    border-radius: 50%; /* Adjust the value to change the roundness */
 }
 
 @media(min-width: 901px) {
